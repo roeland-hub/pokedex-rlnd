@@ -1,0 +1,112 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: aquamarine;
+    background-image: url(img/background.jpg);
+}
+
+h1 {
+    text-align: center;
+    font-family: 'ZCOOL KuaiLe', cursive;
+}
+
+h2 {
+    text-align: center;
+    font-family: 'ZCOOL KuaiLe', cursive; 
+    margin-bottom: 2vh;
+}
+
+img {
+    background-color: cornsilk;
+    border-radius: 50%;
+    height: 250px;
+    width: 250px;
+}
+
+.container {
+    background-color: rgba(200, 200, 200, 0.65);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    width: 420px;
+    height: 420px;
+    margin: 4vh auto;
+}
+
+.poke-container {
+    background-color: rgb(255, 0, 0);
+}
+
+.find-pokemon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 3vh auto 1vh auto;
+}
+
+.input {
+    background-color: rgba(200, 200, 200, 0.65);
+    border: 2px solid black;
+    border-radius: 10px;
+    font-family: 'ZCOOL KuaiLe', cursive;
+    font-size: 1.5rem;
+    height: 40px;
+    width: 100px;
+    padding-left: 20px;
+    margin-right: 20px;
+}
+
+.button {
+    background-color: rgba(200, 200, 200, 0.65);
+    border: 2px solid black;
+    border-radius: 10px;
+    font-family: 'ZCOOL KuaiLe', cursive;
+    font-size: 1.5rem;
+    height: 40px;
+    width: 300px;
+    padding-left: 20px;
+    margin-right: 20px;
+}
+
+.hide{
+    display: none;
+}   
+
+.moves {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    height: 100%;
+    padding: 5px;
+  }
+  
+  .poke-move-one,
+  .poke-move-two,
+  .poke-move-three,
+  .poke-move-four {
+    
+    background: rgba(200, 200, 200, 0.65);
+    border-radius: 25px;
+    display: inline-block;
+    margin: 5px;
+    padding: 10px;
+    text-align: center;
+    font-weight: bold;
+    font-family: 'ZCOOL KuaiLe', cursive;
+    font-size: 1rem;
+  }
+
+  .screen_buttons {
+    display: flex;
+    height: 25px;
+    justify-content: space-between;
+    margin-top: 50px;
+    cursor: pointer;
+}
+
+  
