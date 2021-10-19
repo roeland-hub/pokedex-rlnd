@@ -11,26 +11,36 @@
     <title>Pokedex</title>
 </head>
 <body>
-   
-   <div class="find-pokemon">
-    <input class="input" type="text" name="poke-search" id="poke-search" placeholder="..."/>
-    <button class="button" type="button" id="search-button">Find the Pokemon</button> 
-   </div>
-   <div id="container" class="container">
-       <div id="poke-container"></div>
-   </div>
-   <div class="screen_buttons">
-    <img src="./img/prev.png" id="prev" alt="left arrow"/>
-    <img src="./img/next.png" id="next" alt="right arrow"/>
-</div>
-   <div class="moves">
-    <span class="poke-move-one hide"></span>
-    <span class="poke-move-two hide"></span>
-    <span class="poke-move-three hide"></span>
-    <span class="poke-move-four hide"></span>
-</div>
+    <div class="container">
+        <div class="search-section">
+            <input class="input" type="text" name="poke-input" id="poke-input" placeholder="..."/>
+            <button class="run-button" type="button" id="run-button">GO</button>
+        </div>
+        <div class="info-section">
+            <span class="poke-name"></span>
+            <span class="poke-id"></span>
+        </div>
+        <div class="image-section">
+            <img class="poke-image" src="" alt="pokemon image">
+        </div>
+        <div class="navigation-buttons">
+            <button class="navi-button" type="button" id="prev-button">prev</button>
+            <button class="navi-button" type="button" id="next-button">next</button>
+        </div>
+        <div class="poke-moves">
+            <div class="move" id="moveOne"></div>
+            <div class="move" id="moveTwo"></div>
+            <div class="move" id="moveThree"></div>
+            <div class="move" id="moveFour"></div>
+        </div>
+        <div class="poke-evolution">
+            <img class="evo-one" id="evoOne" src="">
+            <img class="evo-two" id="evoTwo" src="">
+            <img class="evo-three" id="evoThree" src="">
+        </div>
+    </div>
 
 
-   <script src="script1.js"></script>
+   <script src="script2.js"></script>
 </body>
 </html>

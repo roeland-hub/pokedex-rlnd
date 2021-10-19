@@ -57,8 +57,10 @@ searchButton.addEventListener('click', function() {
     let dataThirdMove = dataMoves[2];
     let dataForthMove = dataMoves[3];
 
+    console.log(dataFirstMove);
+
             
-        if(dataFirstMove == false && dataSecondMove == false && dataSecondMove == false && dataThirdMove == false){  
+        if(dataFirstMove == false && dataSecondMove == false && dataThirdMove == false){  
             pokeMoveOne.classList.remove("hide");
             pokeMoveOne.innerHTML = "";
         }
